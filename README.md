@@ -2,6 +2,30 @@
 
 This is a simple childrens game, built with [Easel.js](http://www.createjs.com/#!/EaselJS), by [Max Stoiber](https://github.com/mstoiber).
 
+## Project structure
+
+Generated using [Frontend.md](http://github.com/animade/frontend-md)
+
+### Stylesheets
+
+````
+stylesheets/
+|- home.scss ________________________________ # Tying it all together
+|
+|- modules/
+|  |- toy.scss _______________________________ # Toy specific styles
+|
+|- base/
+|  |- base.scss ______________________________ # Base CSS.
+````
+
+### Javascripts
+
+````
+javascripts/
+|- game.js __________________________________ # The Game
+|- home.js __________________________________ # Importing everything we need
+
 # License
 
 The MIT License (MIT)
