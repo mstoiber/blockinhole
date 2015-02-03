@@ -25,6 +25,7 @@ stylesheets/
 javascripts/
 |- game.js __________________________________ # The Game
 |- home.js __________________________________ # Importing everything we need
+````
 
 # License
 
